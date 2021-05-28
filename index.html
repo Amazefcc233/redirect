@@ -3,8 +3,8 @@
 
 <noscript>您的浏览器不支持或阻止了本页面的JavaScript。请开启它，否则您可能无法获得更好的浏览体验。</noscript>
 
-<p>即将自动跳转...<span id="totalSecond">1</span></p>
-<p>(随着时间的流逝，上方的数字理应从1变为0，并开始跳转到问卷页面。如果跳转没有开始，请<a href="https://www.amazefcc233.com">点击此处&gt;&gt;</a>手动跳转。感谢理解qwq)</p>
+<p>即将自动跳转...<span id="totalSecond">2</span></p>
+<p>(随着时间的流逝，上方的数字理应从2变为0，并开始跳转到问卷页面。如果跳转没有开始，请<a href="https://www.amazefcc233.com">点击此处&gt;&gt;</a>手动跳转。感谢理解qwq)</p>
 <script language="javascript" type="text/javascript"> 
 var second = document.getElementById('totalSecond').textContent; 
 if (navigator.appName.indexOf("Explorer") > -1)  { 
@@ -12,7 +12,7 @@ if (navigator.appName.indexOf("Explorer") > -1)  {
 } else { 
     second = document.getElementById('totalSecond').textContent; 
 } 
-setInterval("redirect()", 500); 
+setInterval("redirect()", 1000); 
 function redirect() { 
 if (second < 0) { location.href = 'https://www.amazefcc233.com/'; } else { if (navigator.appName.indexOf("Explorer") > -1) { 
         document.getElementById('totalSecond').innerText = second--; 
